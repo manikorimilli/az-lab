@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+.idea/
+
+# Never commit secrets
+.env
+*.env
+azure-credentials.json
+
+# Bicep compiles to this - no need to commit it
+infra/*.json
