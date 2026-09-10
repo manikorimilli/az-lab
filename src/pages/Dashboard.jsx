@@ -179,7 +179,7 @@ function Dashboard() {
               <h2 className="section-title">{sectionTitle}</h2>
               {activeCategory && (
                 <button className="chip-clear" onClick={() => setActiveCategory(null)}>
-                  Clear filter: {activeCategory} ✕
+                  Clear filters: {activeCategory} ✕
                 </button>
               )}
             </div>
