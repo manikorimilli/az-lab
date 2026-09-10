@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --color-bg: #f7f7f9;
+  --color-surface: #ffffff;
+  --color-border: #e7e7ec;
+  --color-border-strong: #dcdce3;
+  --color-text: #1a1a23;
+  --color-text-muted: #6b6b78;
+  --color-text-faint: #9494a1;
+
+  --color-accent: #6d5ef7;
+  --color-accent-hover: #5c4bf0;
+  --color-accent-soft: #f1eefe;
+  --color-accent-soft-strong: #e5deff;
+
+  --color-amber: #f59e0b;
+  --color-amber-soft: #fef3e2;
+  --color-emerald: #10b981;
+  --color-emerald-soft: #e6f9f2;
+  --color-blue: #3b82f6;
+  --color-blue-soft: #e9f1ff;
+  --color-danger: #ef4444;
+  --color-danger-soft: #fdeaea;
+
+  --shadow-sm: 0 1px 2px rgba(20, 20, 30, 0.04);
+  --shadow-md: 0 4px 14px rgba(20, 20, 30, 0.06);
+  --shadow-lg: 0 16px 40px rgba(20, 20, 30, 0.12);
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--color-accent-soft-strong);
+}
